@@ -6,7 +6,9 @@
              exit();
          }
          //fetch the resulting rows as an array
-         $first_section = mysqli_fetch_all($result, MYSQLI_ASSOC);
+          while($row = mysqli_fetch_assoc($result)) {
+            $first_section[] = $row;
+        }
          //free result from memory
          mysqli_free_result($result);
          //close connection
