@@ -12,7 +12,6 @@
 				<img alt="" class="img-fluid fas icon" src="img/safe.svg" />
 				<div class="pt-3">
 					<h5>Private and Secure</h5>
-
 				</div>
 			</div>
 			<div class="col-md-6 col-lg py-3">
