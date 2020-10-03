@@ -6,9 +6,6 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
                     </ul>
         <button class="btn btn-outline-danger my-2 my-sm-0" onclick="RedirectURL();return false;" type="submit">Protect your IP</button>
     </nav>
