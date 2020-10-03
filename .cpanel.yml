@@ -1,6 +1,6 @@
 ---
 deployment:
   task:
-    - export DEPLOYPATH=/home/user/pblic_html/ultravpn/
+    - export DEPLOYPATH=/home/elemlsbm/public_html/ultravpn/
     - $DEPLOYPATH
     - /bin/cp * $DEPLOYPATH
