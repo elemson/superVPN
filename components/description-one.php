@@ -23,7 +23,7 @@
                 <p class="mb-4"> <?php echo $display["primary_desc"]; ?></p>
                 <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Protect your IP</button>
             </div>
-            <div class="col-lg-6 p-5"><img alt="" class="img-fluid" data-aos="fade-right" src="img/img-2.svg"></div>
+            <div class="col-lg-6 p-5"><img alt="surf the internet with privacy" class="img-fluid" data-aos="fade-right" src="img/img-2.svg"></div>
         <?php endforeach; ?>
         </div>
     </div>

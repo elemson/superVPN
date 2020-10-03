@@ -23,7 +23,7 @@
                 <h1 class="pb-3"><?php echo $display["title"]; ?></h1>
                 <p class="mb-4"><?php echo $display["primary_desc"]; ?></p>
             </div>
-            <div class="col-lg-6 p-5"><img alt="" class="img-fluid" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500" src="img/img-6.svg"></div>
+            <div class="col-lg-6 p-5"><img alt="hide your ip" class="img-fluid" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1500" src="img/img-6.svg"></div>
         </div>
         <?php endforeach; ?>
     </div>
