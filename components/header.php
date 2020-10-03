@@ -3,7 +3,9 @@
          $result = mysqli_query($conn, $sql);
 
          //fetch the resulting rows as an array
-         $header_info = mysqli_fetch_all($result, MYSQLI_ASSOC);
+          while($row = mysqli_fetch_assoc($result)) {
+                     $header_info[] = $row;
+                 }
          //free result from memory
          mysqli_free_result($result);
          //close connection

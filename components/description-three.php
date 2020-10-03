@@ -6,7 +6,9 @@
              exit();
          }
          //fetch the resulting rows as an array
-         $first_section = mysqli_fetch_all($result, MYSQLI_ASSOC);
+		 while($row = mysqli_fetch_assoc($result)) {
+            $third_section[] = $row;
+        }
          //free result from memory
          mysqli_free_result($result);
          //close connection
@@ -16,7 +18,7 @@
 
     <div class="third layer jumbotron">
         <div class="container row mx-auto">
-            <?php foreach($first_section as $display) : ?>
+            <?php foreach($third_section as $display) : ?>
             <div class="col-lg-6 mb-4 my-lg-auto">
                 <h1 class="pb-3"><?php echo $display["title"]; ?></h1>
                 <p class="mb-4"><?php echo $display["primary_desc"]; ?></p>
