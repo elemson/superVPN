@@ -8,11 +8,11 @@ fetch its value (123), and attach it to the end of the offer page link (https://
 
 ##Technology used:
 1. Frontend
-  - HTML
-  - CSS
-  - [Bootstrap](https://getbootstrap.com/)
-  - JavaScript
+    - HTML
+    - CSS
+    - [Bootstrap](https://getbootstrap.com/)
+    - JavaScript
 
 2. Backend
-  - PHP 
-  - Mysql
+    - PHP 
+    - Mysql
