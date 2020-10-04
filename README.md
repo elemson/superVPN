@@ -1,4 +1,4 @@
-# Ultravpn
+# UltraVPN
 [Demo](http://elemson.com/ultravpn/#)
 
 ## Description
