@@ -11,6 +11,7 @@ function fetchClickID() {
 	return window.location.href
 }
 
+//Run when button is clicked
 function RedirectURL() {
 	window.location = fetchClickID();
 }
