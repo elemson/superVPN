@@ -6,7 +6,6 @@ function fetchClickID() {
 	if (clickID) {
 		URL += "/";
 		URL += clickID;
-		console.log(URL)
 		return URL;
 	}
 	return window.location.href
